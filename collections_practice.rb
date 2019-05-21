@@ -57,5 +57,5 @@ def add_s(array)
   element +'s'
   end
   array[1]slice("s")
-  array 
+   
 end
