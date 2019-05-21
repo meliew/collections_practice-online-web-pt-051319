@@ -53,7 +53,11 @@ def sum_array(numbers_array)
 end
 
 def add_s(array)
-  array.map do |element|
-  puts element +'s'
+  array.each_with_index.collect do |element, index|
+    if element == array[1]
+      element
+    else
+      element +'s'
+    end
   end
 end
