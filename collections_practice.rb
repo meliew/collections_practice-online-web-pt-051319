@@ -54,6 +54,6 @@ end
 
 def add_s(array)
   array.map do |element|
-  puts element +'s'
+ element +'s'
   end
 end
