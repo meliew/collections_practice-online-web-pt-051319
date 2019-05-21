@@ -56,4 +56,6 @@ def add_s(array)
   array.map do |element|
   element +'s'
   end
+  array[1]slice("s")
+  array 
 end
